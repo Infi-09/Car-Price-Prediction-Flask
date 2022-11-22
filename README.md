@@ -1,4 +1,4 @@
-# Car-Price-Predicting-Project
+# Car-Price-Predicting-Flask
 
 ## About
  This repository consists of files required for end to end implementation and deployment of Machine Learning Car Price Prediction web application created with Flask.
