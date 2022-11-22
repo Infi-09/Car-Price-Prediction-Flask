@@ -7,4 +7,11 @@
  Dataset is used from kaggle. [Data](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
 
 ## Usage 
- Run the Car Price Predicting Project.ipynb notebook
+ To run the model
+```
+$ python3 model.py
+```
+To run the flask application
+```
+$ python3 app.py
+```
