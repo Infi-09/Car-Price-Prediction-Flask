@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+<body>
+    <h1>Car Price Predictions</h1><br>
+    <form action="/predict" method="POST">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Car WheelBase:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="wheelbase" placeholder="Range ->(88 to 100)">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Car Length:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" name="carlength" placeholder="Range ->(165 to 190)">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Curb Weight:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" name="curbweight" placeholder="Range ->(48 to 60)">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Bore Ratio</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" name="boreratio" placeholder="Range ->(100 to 160)">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Engine Size:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" name="enginesize" placeholder="Range ->(3.45 to 4.0)">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Horse power:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" name="horsepower" placeholder="Range ->(60 to 120)">
+        </div>  
+        <button type="submit" class="btn btn-dark">Predict Price</button>
+      </form>
+</body>
+</html>
